@@ -1,6 +1,6 @@
 [versions]
 jetty = "12.1.14"
-jackson = "2.22.3"
+jackson = "2.22.4"
 xmlUnit = "2.14.0"
 jsonUnit = "6.3.0"
 junitJupiter = "5.14.4"
@@ -53,7 +53,7 @@ jackson-datatype-jsr310 = { module = "com.fasterxml.jackson.datatype:jackson-dat
 guava = { module = "com.google.guava:guava", version = "33.7.2-jre" }
 
 # HTTP Client
-apache-http5-client = { module = "org.apache.httpcomponents.client5:httpclient5", version = "5.6.4" }
+apache-http5-client = { module = "org.apache.httpcomponents.client5:httpclient5", version = "5.6.5" }
 apache-http5-core = { module = "org.apache.httpcomponents.core5:httpcore5", version = "5.4.4" }
 
 # OkHttp
@@ -75,6 +75,7 @@ json-unit = { module = "net.javacrumbs.json-unit:json-unit", version.ref = "json
 # JSON Path
 json-path = { module = "com.jayway.jsonpath:json-path", version = "3.0.0" }
 json-smart = { module = "net.minidev:json-smart", version = "2.6.0" }
+asm-bom = { module = "org.ow2.asm:asm-bom", version = "9.11.1" }
 
 # SLF4J
 slf4j-api = { module = "org.slf4j:slf4j-api", version.ref = "slf4j" }
